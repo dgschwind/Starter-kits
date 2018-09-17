@@ -5,6 +5,7 @@
 .apt_generated
 .classpath
 .factorypath
+.mvn
 .project
 .settings
 .springBeans
