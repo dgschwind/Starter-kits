@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.net.URI;
 
-@RestController
 public abstract class AbstractResource {
 
     protected final ResponseEntity<URI> generateCreatedResponse(String uriOfNewlyCreatedResource) {
