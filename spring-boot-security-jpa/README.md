@@ -7,5 +7,7 @@ Here are the steps I followed.
 2) Use Spring Initializer (https://start.spring.io) to generate the initial maven and Java project using Spring Boot 2.0.5, choosing Web and Security as the selected dependencies.
 
 To run the application:
-a) In the top level directory : mvn clean install
+a) In the top level directory, run the following commands :
+       1) mvn clean install
+       2) java -jar target/*.war
 b) Assuming the previous step executes without issue, open a browser and visit the URL : localhost:8080.
