@@ -1,4 +1,4 @@
-package com.douggschwind.examples;
+package com.douggschwind.example;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,10 +7,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringbootsecurityApplicationTests {
+public class MainSpringApplicationTest {
 
 	@Test
-	public void contextLoads() {
+	public void testTest() {
 	}
 
 }

@@ -1,12 +1,12 @@
-package com.douggschwind.examples;
+package com.douggschwind.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootsecurityApplication {
+public class MainSpringBootApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootsecurityApplication.class, args);
+		SpringApplication.run(MainSpringBootApplication.class, args);
 	}
 }
