@@ -1,5 +1,8 @@
 package com.douggschwind.example.jsonbean;
 
+/**
+ * Only used when attempting to register a new User with the system.
+ */
 public class NewUserJsonBean {
     private String emailAddress;
     private String plainTextPassword;
